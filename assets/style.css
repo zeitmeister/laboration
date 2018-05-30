@@ -1,0 +1,172 @@
+body {
+  background-color: #ffa852;
+	font-size: 1.8em;
+	text-align: center;
+  font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.title {
+	margin-top: 0;
+}
+
+html {
+height: 100%;
+}
+
+.name {
+	background-color: white;
+	font-size: 1.2em;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	border-style:solid;
+	border-width: 4px;
+	border-color: grey;
+	border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.name:hover {
+	background-color: darkgrey;
+}
+
+ .email {
+ 	margin: 0 auto;
+	display: block;
+	font-size: 1.2em;
+	width: 500px;
+	border-style:solid;
+	border-width: 4px;
+	border-color: grey;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.email:hover {
+	background-color: darkgrey;
+}
+
+.comment {
+	margin: 0 auto;
+	display: block;
+	font-size: 1em;
+	width: 500px;
+	border-style:solid;
+	border-width: 4px;
+	border-color: grey;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comment:hover {
+	background-color: darkgrey;
+}
+
+.submit {
+  text-align: center;
+	color:grey !important;
+ 	text-shadow:none !important;
+	border:none !important;
+ 	box-shadow:none !important;
+	width: 500px;
+	border-width: 4px;
+	border-color: grey;
+	height: 40px;
+	margin: 40px auto auto auto;
+	font-size: 1.1em;
+	transition-duration: 0.7s;
+	border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+.submit:hover {
+	background-color: darkgrey;
+}
+
+#commentwrapper {
+margin: 0 auto;
+	background-color: ;
+	width: 700px;
+	color: black;
+	background-color: darkgrey;
+	border: 2px solid grey;
+	border-radius: 4px;
+	height: 600px;
+	padding-left: 50px;
+	padding-right: 50px;
+	overflow-y: scroll;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.commentwrapper {
+margin: 0 auto;
+	background-color: ;
+	width: 700px;
+	color: black;
+	background-color: darkgrey;
+	border: 2px solid grey;
+	border-radius: 4px;
+	height: 600px;
+	padding-left: 50px;
+	padding-right: 50px;
+	overflow-y: scroll;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+li {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header {
+	background-color: grey;
+	/-color: #ffa859;
+	margin-top: 0;
+	padding-top: 0;
+	width: 100%;
+}
+h1  {
+  color: #ffa859;
+}
+h2 {
+  color: grey;
+}
+form {
+  color: grey;
+}
+.back {
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: darkgrey;
+}
+
+.logout a {
+  text-align: right;
+  display: inline-block;
+  color: firebrick;
+}
+
+.logout a:hover {
+  color: darkgrey;
+}
+
+.logintext {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
